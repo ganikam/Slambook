@@ -1,0 +1,113 @@
+.App {
+  border:black;
+  border-radius: 5px;
+  margin-left: 520px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the form horizontally */
+  justify-content: center; /* Centers the form vertically */
+  min-height: 100vh;
+}
+body{
+  background-image: url('https://tse3.mm.bing.net/th?id=OIP.fnDumJSmDR0Tko1nwlXyIAHaEo&pid=Api&P=0&h=180'); /* URL of your image */
+  background-size: cover; /* Ensures the image covers the entire screen */
+  background-position: center center; /* Centers the background image */
+  background-attachment: fixed; /* Keeps the background fixed while scrolling */
+
+}
+
+form {
+  border:black;
+  border-radius: 5px;
+  width: 60vh;
+  max-width: 1000px; /* Make form wider */
+  background: rgba(255, 255, 255, 0.7); /* Transparent background */
+  padding: 40px; /* Increased padding for larger form spacing */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  text-align: left;
+  margin-top: 25px; /* Increased margin for spacing */
+  font-size: 20px; /* Larger font size */
+  font-weight: bold;
+  color: #333;
+}
+
+input, textarea {
+  display: block;
+  width: 50vh;
+  margin: 20px 0; /* Increased margin for more space between fields */
+  padding: 20px; /* Larger padding for inputs */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 18px; /* Increased font size */
+}
+
+textarea {
+  height: 150px; /* Larger textarea */
+}
+
+/* Styling for the radio group to display buttons horizontally */
+.radio-group {
+  display: flex;
+  flex-wrap: wrap; /* Allows radio buttons to wrap to the next line if needed */
+  justify-content: flex-start; /* Aligns items at the start */
+  margin-top: 10px; /* Small margin for spacing */
+}
+
+/* Styling for each radio item */
+.radio-item {
+  margin-left:-100px;
+  display: flex;
+  align-items: center; /* Align radio button and label horizontally */
+   /* Adds space between each radio button */
+}
+
+/* Styling for radio buttons */
+.radio-item input[type="radio"] {
+  margin-right: 3px; /* Adds space between radio button and label */
+}
+
+button {
+  padding: 18px 35px; /* Larger button */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px; 
+button:hover {
+  background-color: #0056b3;
+}
+}
+
+.entries {
+  margin-top: 30px;
+  width: 100%;
+  max-width: 800px; /* Make entries container wider */
+}
+
+.entry {
+  background: rgba(255, 255, 255, 0.7); /* Transparent background */
+  padding: 30px; /* Increased padding for entries */
+  margin: 20px 0; /* Increased margin between entries */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.entry h2 {
+  font-size: 28px; /* Larger header in entry box */
+  margin-bottom: 15px;
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 36px; /* Larger header */
+  font-weight: bold;
+  color: #333;
+}
